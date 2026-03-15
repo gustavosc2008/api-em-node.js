@@ -36,8 +36,6 @@ Este projeto está em constante evolução. Em breve será transformado em um **
   git clone <url-do-repositorio>
   Baixe e instale o Node.js para o seu sistema operacional.
   Verifique a instalação com:
-
-  bash
   node -v
   npm -v
 2. Crie um banco de dados chamado sistem1 e importe o arquivo sistem1.sql.
@@ -57,7 +55,7 @@ Este projeto está em constante evolução. Em breve será transformado em um **
   node server.js
   caso queira alterar recomendo usar 'node --watch server.js' que a cada alteracao o 
   servidor atualizara sozinho
-  
+
 7.  Abra no navegador:
 
 http://localhost:3000/produtos → retorna todos os produtos em JSON
