@@ -30,7 +30,6 @@ Este projeto está em constante evolução. Em breve será transformado em um **
 ---
 
 ## ▶️ **Como executar**
-# 🚀 Guia de Execução da API
 
 1. Clone este repositório:
   git clone <url-do-repositorio>
