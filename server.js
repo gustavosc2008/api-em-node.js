@@ -19,7 +19,21 @@ app.get('/produtos', (req,res) => { /*Dando o diretorio aonde aparecera */
         }
         else{
             res.json(results); /*caso de tudo certo dara o resultado da pesquisa */
-        }});
+        }
+});
+});
+app.get('./produtos/nomes', (res,req) =>{
+    db.query('SELECT nomes FROM produtos', (err,results) =>{
+        if(err){
+            console.error('Erro no teste',err);
+            res.status(500).send('Erro no servidor')
+        }
+        else{
+            res.json({
+                mensagem : 'nomes produtos',
+                produtos : results
+            })};
+    });
 });
 
 
