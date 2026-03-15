@@ -56,7 +56,7 @@ Este projeto está em constante evolução. Em breve será transformado em um **
   caso queira alterar recomendo usar 'node --watch server.js' que a cada alteracao o 
   servidor atualizara sozinho
 
-7.  Abra no navegador:
+7.  Abra no navegador apos o tutorial:
 
 http://localhost:3000/produtos → retorna todos os produtos em JSON
 
