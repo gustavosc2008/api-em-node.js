@@ -35,8 +35,8 @@ Este projeto está em constante evolução. Em breve será transformado em um **
 1. Clone este repositório:
   git clone <url-do-repositorio>
   Baixe e instale o Node.js para o seu sistema operacional.
-  Verifique a instalação com:
-  node -v
+  Verifique a instalação no prompt de comando com:
+  node -v e 
   npm -v
 2. Crie um banco de dados chamado sistem1 e importe o arquivo sistem1.sql.
 
