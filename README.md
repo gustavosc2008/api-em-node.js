@@ -30,6 +30,36 @@ Este projeto está em constante evolução. Em breve será transformado em um **
 ---
 
 ## ▶️ **Como executar**
-1. Clone este repositório:  
-   ```bash
-   git clone <url-do-repositorio>
+# 🚀 Guia de Execução da API
+
+1. Clone este repositório:
+  git clone <url-do-repositorio>
+  Baixe e instale o Node.js para o seu sistema operacional.
+  Verifique a instalação com:
+
+  bash
+  node -v
+  npm -v
+2. Crie um banco de dados chamado sistem1 e importe o arquivo sistem1.sql.
+
+3. No terminal do VS Code, instale as dependências:
+  npm install express
+  npm install mysql2
+
+4. Verifique se os dados de conexão ao banco (host, usuário, senha e nome do banco) estão corretos conforme sua configuração local.
+  👉 ![imagem](autor.png)
+
+5. Confirme se a porta 3000 não está em uso. Caso esteja, altere a porta no arquivo server.js para outra disponível (ex: 4000).
+  ![imagem porta](image.png)
+
+6. Execute o servidor no terminal do vs code:
+
+  node server.js
+  caso queira alterar recomendo usar 'node --watch server.js' que a cada alteracao o 
+  servidor atualizara sozinho
+  
+7.  Abra no navegador:
+
+http://localhost:3000/produtos → retorna todos os produtos em JSON
+
+http://localhost:3000/produtos/nomes → retorna apenas nome e peso dos produtos
